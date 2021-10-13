@@ -11,7 +11,7 @@ const MovieInfo = ({ movie }) => {
           </div>
           <div className="card-back">
             <h1>{movie.title||movie.name}</h1>
-            <h3>Release Date: {movie.release_date}</h3>
+            <h3>Release Date: {movie.release_date||movie.first_air_date}</h3>
             <p>Vote average: {movie.vote_average}/10.0</p>
             <div className="overview">{movie.overview}</div>
           </div>
