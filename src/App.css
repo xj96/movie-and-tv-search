@@ -160,6 +160,7 @@ input[type="text"]:focus {
   height: 300px;
   border: 1px solid #312f2f;
   perspective: 1000px;
+  margin-bottom: 2rem;
 }
 
 .card-flip:hover .card-inner {
